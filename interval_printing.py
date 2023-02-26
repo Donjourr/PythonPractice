@@ -7,4 +7,4 @@ numbers = []
 for i in range(-100, 101, int(interval)):
     numbers.append(i)
 
-print(numbers)
+print('List of numbers between -100 and 100 that has', interval, 'of interval: ', numbers)
